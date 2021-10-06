@@ -25,6 +25,8 @@ public class DogServiceUnitTest {
 	@Mock
 	private DogRepo repo;
 	
+	//Create
+	
 	@Test
 	public void createTest() {
 		
@@ -38,11 +40,13 @@ public class DogServiceUnitTest {
 		Mockito.verify(this.repo, Mockito.times(1)).saveAndFlush(input);
 	}
 	
+	//Read all
+	
 	@Test
 	public void getAllDogs() {
 		
 		List<Dog> output = new ArrayList<>();
-		output.add(new Dog("Dave the Doggo", "Labrador", 3, 43.0));
+		output.add(new Dog(1L, "Dave the Doggo", "Labrador", 3, 43.0));
 		
 		Mockito.when(this.repo.findAll()).thenReturn(output);
 		
@@ -50,6 +54,8 @@ public class DogServiceUnitTest {
 		
 		Mockito.verify(this.repo, Mockito.times(1)).findAll();
 	}
+	
+	//Read by ID
 	
 	@Test
 	public void getId() {
@@ -63,6 +69,8 @@ public class DogServiceUnitTest {
 		
 		Mockito.verify(this.repo, Mockito.times(1)).findById(input);
 	}
+	
+	//Update
 	
 	@Test
 	public void updateDog() {
@@ -82,12 +90,14 @@ public class DogServiceUnitTest {
 		
 	}
 	
+	//Delete
+	
 	@Test
 	public void removeDog() {
 		
 		Long input = 1L;
 		boolean existingId = false;
-		boolean output = true;
+//		boolean output = true; //only used in alternate method
 		
 		Mockito.doNothing().when(this.repo).deleteById(input);
 		Mockito.when(this.repo.existsById(input)).thenReturn(existingId);
