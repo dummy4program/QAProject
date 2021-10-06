@@ -35,12 +35,20 @@ public class Dog {
 		this.weight = weight;
 	}
 	
+	public Dog(String name, String breed, int age, double weight) {
+		super();
+		this.name = name;
+		this.breed = breed;
+		this.age = age;
+		this.weight = weight;
+	}
+	
 	public Dog() {
 		
 	}
 	
 	//Getters and setters
-	
+
 	public Long getId() {
 		return id;
 	}
