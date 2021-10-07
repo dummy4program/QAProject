@@ -32,6 +32,8 @@ The Dog class becomes an entity in the database with the following basic self-ex
 * age - an integer
 * weight - a double datatype due to the need to use decimal places
 
+Service, Controller and Repo classes were also used to add functionality and best practice standards to the application.
+ 
 ---
 
 </details>
@@ -107,6 +109,48 @@ Stretch goals could improve the functionality or confidence in the application b
  
 <summary align="center">Screenshots - Postman</summary>
 
+<p align="center">
+<i>Postman - CREATE a new individual record, automatically generating a new ID</i>
+</p>
+<p align="center">
+<img height="600" src="https://github.com/dummy4program/QAProject/blob/dev/img/postman-create.jpg">
+</p>
+
+<p align="center">
+<i>Postman - READ individual record by ID with ID 1</i>
+</p>
+<p align="center">
+<img height="600" src="https://github.com/dummy4program/QAProject/blob/dev/img/postman-readbyid.jpg">
+</p>
+
+<p align="center">
+<i>Postman - UPDATE individual record with ID 2</i>
+</p>
+<p align="center">
+<img height="600" src="https://github.com/dummy4program/QAProject/blob/dev/img/postman-update.jpg">
+</p>
+
+<p align="center">
+<i>Postman - READ all records</i>
+</p>
+<p align="center">
+<img height="600" src="https://github.com/dummy4program/QAProject/blob/dev/img/postman-readall.jpg">
+</p>
+
+<p align="center">
+<i>Postman - DELETE individual record with ID 1</i>
+</p>
+<p align="center">
+<img height="600" src="https://github.com/dummy4program/QAProject/blob/dev/img/postman-delete.jpg">
+</p>
+
+<p align="center">
+<i>Postman - READ all after individual deletion, the record with ID 1 is no longer there</i>
+</p>
+<p align="center">
+<img height="600" src="https://github.com/dummy4program/QAProject/blob/dev/img/postman-delete-readafter.jpg">
+</p>
+ 
 ---
 
 </details>
@@ -117,6 +161,13 @@ Stretch goals could improve the functionality or confidence in the application b
  
 <summary align="center">Screenshots - Persisted data</summary>
 
+<p align="center"> 
+<i>Data persisting in MySQL Workbench after CREATE requests in Postman</i>
+</p>
+<p align="center">
+<img height="600" src="https://github.com/dummy4program/QAProject/blob/dev/img/persisteddata.jpg">
+</p>
+
 ---
 
 </details>
@@ -125,7 +176,121 @@ Stretch goals could improve the functionality or confidence in the application b
 
 ---
 
-<summary align="center">Screenshots - Tests and coverage reports</summary>
+<summary align="center">Screenshots - Tests - all</summary>
+
+<p align="center">
+<i>All tests run together - overview</i>
+</p>
+<p align="center">
+<img height="350" src="https://github.com/dummy4program/QAProject/blob/dev/img/tests-AllOverview.jpg">
+</p>
+
+<p align="center">
+<i>All tests run together - completed successfully</i>
+</p>
+<p align="center">
+<img height="350" src="https://github.com/dummy4program/QAProject/blob/dev/img/tests-AllCompleted.jpg">
+</p>
+ 
+<p align="center">
+<i>All tests run together - coverage report</i>
+</p>
+<p align="center">
+<img height="350" src="https://github.com/dummy4program/QAProject/blob/dev/img/tests-AllCoverage.jpg">
+</p>
+
+---
+
+</details>
+
+<details>
+
+---
+
+<summary align="center">Screenshots - Tests - Unit - Service</summary>
+
+<p align="center">
+<i>Unit tests for Service class - overview</i>
+</p>
+<p align="center">
+<img height="350" src="https://github.com/dummy4program/QAProject/blob/dev/img/tests-UnitServiceOverview.jpg">
+</p>
+
+<p align="center">
+<i>Unit tests for Service class - completed successfully</i>
+</p>
+<p align="center">
+<img height="200" src="https://github.com/dummy4program/QAProject/blob/dev/img/tests-UnitServiceCompleted.jpg">
+</p>
+ 
+<p align="center">
+<i>Unit tests for Service class - coverage report</i>
+</p>
+<p align="center">
+<img height="350" src="https://github.com/dummy4program/QAProject/blob/dev/img/tests-UnitServiceCoverage.jpg">
+</p>
+
+---
+
+</details>
+
+<details>
+
+---
+
+<summary align="center">Screenshots - Tests - Unit - Controller</summary>
+
+<p align="center">
+<i>Unit tests for Controller class - overview</i>
+</p>
+<p align="center">
+<img height="350" src="https://github.com/dummy4program/QAProject/blob/dev/img/tests-UnitControllerOverview.jpg">
+</p>
+
+<p align="center">
+<i>Unit tests for Controller class - completed successfully</i>
+</p>
+<p align="center">
+<img height="200" src="https://github.com/dummy4program/QAProject/blob/dev/img/tests-UnitControllerCompleted.jpg">
+</p>
+ 
+<p align="center">
+<i>Unit tests for Controller class - coverage report</i>
+</p>
+<p align="center">
+<img height="350" src="https://github.com/dummy4program/QAProject/blob/dev/img/tests-UnitControllerCoverage.jpg">
+</p>
+
+---
+
+</details>
+
+<details>
+
+---
+
+<summary align="center">Screenshots - Tests - Integration</summary>
+
+<p align="center">
+<i>Integration test - overview</i>
+</p>
+<p align="center">
+<img height="350" src="https://github.com/dummy4program/QAProject/blob/dev/img/tests-IntegrationOverview.jpg">
+</p>
+
+<p align="center">
+<i>Integration test - completed successfully</i>
+</p>
+<p align="center">
+<img height="200" src="https://github.com/dummy4program/QAProject/blob/dev/img/tests-IntegrationCompleted.jpg">
+</p>
+ 
+<p align="center">
+<i>Integration test - coverage report</i>
+</p>
+<p align="center">
+<img height="350" src="https://github.com/dummy4program/QAProject/blob/dev/img/tests-IntegrationCoverage.jpg">
+</p>
 
 ---
 
