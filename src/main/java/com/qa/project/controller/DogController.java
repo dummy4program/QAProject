@@ -42,7 +42,7 @@ public class DogController {
 		return new ResponseEntity<List<Dog>>(this.service.getAllDogs(), HttpStatus.OK);
 	}
 	
-	@GetMapping("get/{id}")
+	@GetMapping("/get/{id}")
 	public ResponseEntity<Dog> getId(@PathVariable Long id) {
 		return new ResponseEntity<Dog>(this.service.getId(id), HttpStatus.OK);
 	}
