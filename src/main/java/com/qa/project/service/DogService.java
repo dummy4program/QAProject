@@ -17,12 +17,12 @@ public class DogService {
 		this.repo = repo;
 	}
 	
-	//CRUD functionality
+	//CRUD functionality methods, communicating with repo
 	
 	//Create
 	
-	public Dog addDog(Dog doggo) {
-		return this.repo.saveAndFlush(doggo);
+	public Dog addDog(Dog newDog) {
+		return this.repo.saveAndFlush(newDog);
 	}
 	
 	//Read all
@@ -36,27 +36,27 @@ public class DogService {
 	public Dog getId(Long id) {
 		Dog doggoFound = this.repo.findById(id).orElseThrow();
 		return doggoFound;
-	}
+	} //future functionality of throwing custom exceptions to be added
 	
 	//Update
 	
-	public Dog updateDog(Long id, Dog newDoggo) {
-		Optional<Dog> existing = this.repo.findById(id);
-		Dog existingDoggo = existing.get();
+	public Dog updateDog(Long id, Dog newDog) {
+		Optional<Dog> findExisting = this.repo.findById(id);
+		Dog existingDog = findExisting.get();
 		
-		existingDoggo.setName(newDoggo.getName());
-		existingDoggo.setBreed(newDoggo.getBreed());
-		existingDoggo.setAge(newDoggo.getAge());
-		existingDoggo.setWeight(newDoggo.getWeight());
+		existingDog.setName(newDog.getName());
+		existingDog.setBreed(newDog.getBreed());
+		existingDog.setAge(newDog.getAge());
+		existingDog.setWeight(newDog.getWeight());
 		
-		return this.repo.saveAndFlush(existingDoggo);
+		return this.repo.saveAndFlush(existingDog);
 	}
 	
 	//Delete
 	
 	public boolean removeDog(Long id) {
 		this.repo.deleteById(id);
-		boolean exists = this.repo.existsById(id);
+		boolean exists = this.repo.existsById(id);  //check if still exists after deletion attempt
 		return !exists;
 	}
 	

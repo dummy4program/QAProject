@@ -12,19 +12,17 @@ import javax.persistence.Table;
 @Table(name="Dog")
 public class Dog {
 
-	//Attributes
+	//Object variables -> database attributes
 	
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	private Long id;
+	@GeneratedValue(strategy=GenerationType.IDENTITY) //for automatically generating and incrementing id
+	private Long id; 
 	private String name;
 	private String breed;
 	private int age;
 	private double weight;
 	
-	
-	
-	//Constructor
+	//Constructors
 	
 	public Dog(Long id, String name, String breed, int age, double weight) {
 		super();
@@ -99,6 +97,9 @@ public class Dog {
 				&& Objects.equals(name, other.name)
 				&& Double.doubleToLongBits(weight) == Double.doubleToLongBits(other.weight);
 	}
+	
+	//toString
+	
 	@Override
 	public String toString() {
 		return "Dog [id=" + id + ", name=" + name + ", breed=" + breed + ", age=" + age + ", weight=" + weight + "]";

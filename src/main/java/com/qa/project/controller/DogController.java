@@ -26,13 +26,13 @@ public class DogController {
 		this.service = service;
 	}
 	
-	//CRUD HTTP request mapping
+	//mapping HTTP requests to service CRUD methods and setting HTTP response codes for successful execution
 	
 	//Create
 	
 	@PostMapping("/create")
-	public ResponseEntity<Dog> addDog(@RequestBody Dog doggo) {
-		return new ResponseEntity<Dog>(this.service.addDog(doggo), HttpStatus.CREATED);
+	public ResponseEntity<Dog> addDog(@RequestBody Dog newDog) {
+		return new ResponseEntity<Dog>(this.service.addDog(newDog), HttpStatus.CREATED);
 	}
 	
 	//Read
@@ -45,20 +45,20 @@ public class DogController {
 	@GetMapping("/get/{id}")
 	public ResponseEntity<Dog> getId(@PathVariable Long id) {
 		return new ResponseEntity<Dog>(this.service.getId(id), HttpStatus.OK);
-	}
+	} //example of PathVariable usage here would be ..."/get/1" at the end of URL path for entry with id 1
 	
 	//Update
 	
 	@PutMapping("/update")
-	public ResponseEntity<Dog> updateDog(@PathParam("id") Long id, @RequestBody Dog doggo) {
-		return new ResponseEntity<Dog>(this.service.updateDog(id, doggo), HttpStatus.ACCEPTED);
-	}
+	public ResponseEntity<Dog> updateDog(@PathParam("id") Long id, @RequestBody Dog newDog) {
+		return new ResponseEntity<Dog>(this.service.updateDog(id, newDog), HttpStatus.ACCEPTED);
+	} //example of PathParam usage here would be ..."/update?id=2" at the end of URL path for entry with id 2
 	
 	//Delete
 	
 	@DeleteMapping("/delete/{id}")
 	public ResponseEntity<Boolean> removeDog(@PathVariable Long id) {
 		return new ResponseEntity<Boolean>(this.service.removeDog(id), HttpStatus.NO_CONTENT);
-	}
+	} //example of PathVariable usage here would be ..."/delete/3" at the end of URL path for entry with id 3
 	
 }

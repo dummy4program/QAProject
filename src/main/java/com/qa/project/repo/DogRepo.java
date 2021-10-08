@@ -6,6 +6,6 @@ import com.qa.project.entities.Dog;
 
 public interface DogRepo extends JpaRepository<Dog, Long>{
 
-	
+	//communicates with the database
 	
 }
