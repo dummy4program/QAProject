@@ -94,9 +94,10 @@ I also learnt some niché technical details through trial and error or finding a
 Stretch goals could improve the functionality or confidence in the application by adding more advanced development features such as DTOs, custom database queries and custom exceptions, or improving the test coverage and including an Entity Relationship Diagram. In addition, the original scope envisioned for this application could include the following improvements or additions:
 
 * further revision and refactoring of existing code for best practice standards such as SOLID Principles
+* implementing "NOT NULL" constaints to ensure that empty fields (or fields with null values) can't be created in the database
 * adding more variables/attributes to the Dog entity which might be useful for the staff users, such as dateEnteredShelter
 * adding a new entity to the database to record details of any individuals who adopt dogs from the shelter, recording details such as their name, address, phone number, email address, date first contacted, date adopted
- * adding interaction between the Dog and Adopter entities such as using foreign keys and a new Adoption entity to store details for each adoption event, holding details which would be related to both the Dog and Adopter
+ * adding interaction between the Dog and Adopter entities such as using foreign keys to create relationships and a new Adoption entity to store details for each adoption event, holding details which would be related to both the Dog and Adopter
   * the above would require adapting the current application to be able to carry out CRUD functionality on different classes/entities with ease
 * adding a frontend to the application to make using it even easier
  * after adding a frontend, or even beforehand, User Experience research could be carried out to optimise the app for its intended users and improve usability
@@ -319,4 +320,4 @@ Sprints have been completed for all User Stories and Tasks involving MVP deliver
 
 [Link to Jira project management Scrum board](https://kalford.atlassian.net/jira/software/projects/QP/boards/2/roadmap?shared=&atlOrigin=eyJpIjoiZTk4MDhlMmI1ZGYyNDM1YjhkZDNkOTUxNTUyZTg4NGMiLCJwIjoiaiJ9)
 
-A [documentation](/documentation) folder has also been added to this repo containing a [risk assessment](/documentation/RiskAssessment.pdf) carried out for the project, which has also been plotted in a risk matrix.
+A [documentation](/documentation) folder has also been added to this repo. It contains a [risk assessment](/documentation/RiskAssessment.pdf) carried out for the project, which has also been plotted in a risk matrix. An [Entity Relationship Diagram](/documentation/erd-dog.jpg) ("ERD") is also added, although because this application only involves one entity so far in it's MVP state there are no other entities present for the Dog entity to interact with and have a relationship to.
