@@ -298,6 +298,25 @@ Stretch goals could improve the functionality or confidence in the application b
 
 </details>
 
+<details>
+
+---
+
+<summary align="center">Jira project management board</summary>
+
+On the Jira board, User Stories and Tasks were dividing across two epics - Development and Documentation. Acceptance criteria have been set for User Stories, estimations via story points have been assigned to all Tasks and MoSCoW prioritisation has been implemented through Jira's priority labelling for both Tasks and User Stories. The MoSCoW equivalent of Jira priority labels is as follows:
+
+* Highest = Must have (all MVP deliverables)
+* High = Should have (e.g. refactoring for SOLID principles or efficiency if spare time is available)
+* Medium = Could have (Stretch goals that are deemed to be the most suitable for time constaints and project goals, which might be completed if there is time)
+* Lowest = Won't have (Stretch goals that are unlikely to be implemented)
+
+Sprints have been completed for all User Stories and Tasks involving MVP deliverables. Several stretch goal User Stories and Tasks remain in the project backlog on the board due to time constraints and making the decision to focus on delivering a solid MVP.
+
+---
+
+</details>
+
 [Link to Jira project management Scrum board](https://kalford.atlassian.net/jira/software/projects/QP/boards/2/roadmap?shared=&atlOrigin=eyJpIjoiZTk4MDhlMmI1ZGYyNDM1YjhkZDNkOTUxNTUyZTg4NGMiLCJwIjoiaiJ9)
 
 A [documentation](/documentation) folder has also been added to this repo containing a [risk assessment](/documentation/RiskAssessment.pdf) carried out for the project, which has also been plotted in a risk matrix.
