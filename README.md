@@ -22,17 +22,17 @@ This also included the additional use of Eclipse, Postman, MySQL Workbench and M
  
 To accomplish this objective, the "QAProject" Spring Boot API was created which serves to allow CRUD (Create, Read, Update and Delete) functionality through HTTP requests from a tool like Postman. The application allows data to be tested with speed in an H2 console or persisted within a MySQL database in a live environment. Either a MySQL command line client or MySQL Workbench can be used to access the persisted database.
 
-The intended use of the application is to create and use records of dogs entering a kennel, shelter or rescue centre - to enable the staff to keep track of their canine occupant best friends.
+The intended use of the application is to create and use records of dogs entering a kennel, shelter or rescue centre - to enable the staff to keep track of their canine occupant best friends. I chose this as a focus for the application because dogs are one of the few things I like more than learning about software development!
 
-The Dog class becomes an entity in the database with the following basic self-explanitory variables becoming attributes of each dog in the database:
+The Dog class becomes an entity in the database with the following self-explanitory variables becoming attributes of each dog in the database:
 
-* id - a Long datatype automatically assigned in the database to ensure each record is unique and help identify them quickly
+* id - a Long datatype automatically assigned by the application to ensure each object/record is unique and help identify them quickly
 * name - a String
 * breed - a String
 * age - an integer
 * weight - a double datatype due to the need to use decimal places
 
-Service, Controller and Repo classes were also used to add functionality and best practice standards to the application.
+Service, Controller and Repo classes were also used to implement functionality and best practice standards to the application.
  
 ---
 
@@ -61,7 +61,9 @@ My original goal for the project had been to keep the general idea of the applic
 ---
 
 <summary align="center">Successes</summary>
-The main application seemed to come together quite well and implementing the CRUD functionality went smoothly. It was a great feeling to create my first fully functional application tied to a database. I also enjoyed the feeling of accomplishment overcoming challenges during development and learning new things along the way - such as what a .md file is and how to edit them in fun ways, similar to HTML files!
+The main application seemed to come together quite well and implementing the CRUD functionality went smoothly. It was a great feeling to create my first fully functional application tied to a database. Although other parts of the project involved some head scratching at times - such as testing scripts and compiling errors, I also enjoyed the feeling of accomplishment overcoming challenges during development and learning new things along the way. An example of something new I learnt is what a .md file is and how to edit them in fun ways, similar to HTML files!
+<p></p>
+Another aspect I'd consider a success was in being able to contribute to helping others overcome problems in their own work, either by helping to find the cause of their problem when they were stuck with something so that they could work out a solution for themselves or by sharing knowledge from my experience of overcoming problems in my project.
 
 ---
 
@@ -73,9 +75,9 @@ The main application seemed to come together quite well and implementing the CRU
 
 <summary align="center">Opportunities to learn</summary>
 
-Time management was the single biggest challenge during this project, particularly because I had some external distractions due to illness. A significant amount of time was also spent trying to get the Github network graph to look like a "textbook" example should. This is evidenced in some of my earlier commits in this Github repository where the work done was either insignificant or manufactured to be able to add a commit on purpose and try to force Github to diversify the branches I was using (main/dev/feature). Further research revealed that Github is not always 100% accurate when creating network graphs and with this being a small project it wasn't an ideal scenario to worry about details like that. So there was a learning opportunity to remain focused on more important tasks rather than getting caught up in particular details. Although, this didn't have a negative impact on delivering the project on time as I continually re-evaluated my plan and remaining schedule each day to ensure I would reach my goals.
+Time management was the single biggest challenge during this project, particularly because I had some external distractions due to illness. Some time was also spent trying to get the Github network graph to look like a "textbook" example should. This is evidenced in some of my earlier commits in this Github repository where the work done was either insignificant or manufactured to be able to add a commit on purpose and try to force Github to diversify the branches I was using (main/dev/feature), as testing prior to starting this repo had suggested that would help. Further research revealed that Github is not always 100% accurate when creating network graphs and with this being a small project it wasn't an ideal scenario to worry about details like that. So there was a learning opportunity to clarify the importance of smaller details like that with the project client earlier against criteria for delivery before spending time on trying to perfect them. This didn't have a negative impact on delivering the project on time as I continually re-evaluated my plan and remaining schedule twice a day to ensure I would reach my goals.
 
-I came to realise the importance of clarifying any ambiguous details in the original brief early on. For example, quantifying subjective terminology to help with the project aims and planning. Or also clarifying that despite the project listing some possible stretch goals there was no grading incentive to complete them - whereas there was the possibility of _losing_ points by underachieving in delivering the Minimum Viable Product ("MVP"). This shifted my focus from attempting to achieve stretch goals to instead ensuring that every aspect of the MVP was as good as I could possibly make it in the time given. I've learnt to clarify details such as these right away in future.
+I came to realise the importance of clarifying any ambiguous details in the original brief early on. For example, quantifying subjective terminology to help with the project aims and planning. Or also clarifying that despite the project listing some possible stretch goals there was no grading incentive to complete them - whereas there was the possibility of _losing_ grading points by underachieving in delivering the Minimum Viable Product ("MVP"). This shifted my focus from attempting to achieve stretch goals to instead ensuring that every aspect of the MVP was as good as I could possibly make it in the time given. I've learnt to clarify details such as these right away in future.
 
 I also learnt some niché technical details through trial and error or finding appropriate help to fix problems such as needing to set _Coverage Configurations_ appropriately when running JUnit tests, or how using H2 rather than MySQL for database implementation means that the double datatype needs to be declared slightly differently in a schema.
 
