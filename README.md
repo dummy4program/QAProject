@@ -115,42 +115,42 @@ Stretch goals could improve the functionality or confidence in the application b
 <i>Postman - CREATE a new individual record, automatically generating a new ID</i>
 </p>
 <p align="center">
-<img height="600" src="https://github.com/dummy4program/QAProject/blob/dev/img/postman-create.jpg">
+<img height="600" src="/img/postman-create.jpg">
 </p>
 
 <p align="center">
 <i>Postman - READ individual record by ID with ID 1</i>
 </p>
 <p align="center">
-<img height="600" src="https://github.com/dummy4program/QAProject/blob/dev/img/postman-readbyid.jpg">
+<img height="600" src="/img/postman-readbyid.jpg">
 </p>
 
 <p align="center">
 <i>Postman - UPDATE individual record with ID 2</i>
 </p>
 <p align="center">
-<img height="600" src="https://github.com/dummy4program/QAProject/blob/dev/img/postman-update.jpg">
+<img height="600" src="/img/postman-update.jpg">
 </p>
 
 <p align="center">
 <i>Postman - READ all records</i>
 </p>
 <p align="center">
-<img height="600" src="https://github.com/dummy4program/QAProject/blob/dev/img/postman-readall.jpg">
+<img height="600" src="/img/postman-readall.jpg">
 </p>
 
 <p align="center">
 <i>Postman - DELETE individual record with ID 1</i>
 </p>
 <p align="center">
-<img height="600" src="https://github.com/dummy4program/QAProject/blob/dev/img/postman-delete.jpg">
+<img height="600" src="/img/postman-delete.jpg">
 </p>
 
 <p align="center">
 <i>Postman - READ all after individual deletion, the record with ID 1 is no longer there</i>
 </p>
 <p align="center">
-<img height="600" src="https://github.com/dummy4program/QAProject/blob/dev/img/postman-delete-readafter.jpg">
+<img height="600" src="/img/postman-delete-readafter.jpg">
 </p>
  
 ---
@@ -167,7 +167,7 @@ Stretch goals could improve the functionality or confidence in the application b
 <i>Data persisting in MySQL Workbench after CREATE requests in Postman</i>
 </p>
 <p align="center">
-<img height="600" src="https://github.com/dummy4program/QAProject/blob/dev/img/persisteddata.jpg">
+<img height="600" src="/img/persisteddata.jpg">
 </p>
 
 ---
@@ -184,21 +184,21 @@ Stretch goals could improve the functionality or confidence in the application b
 <i>All tests run together - overview</i>
 </p>
 <p align="center">
-<img height="350" src="https://github.com/dummy4program/QAProject/blob/dev/img/tests-AllOverview.jpg">
+<img height="350" src="/img/tests-AllOverview.jpg">
 </p>
 
 <p align="center">
 <i>All tests run together - completed successfully</i>
 </p>
 <p align="center">
-<img height="350" src="https://github.com/dummy4program/QAProject/blob/dev/img/tests-AllCompleted.jpg">
+<img height="350" src="/img/tests-AllCompleted.jpg">
 </p>
  
 <p align="center">
 <i>All tests run together - coverage report</i>
 </p>
 <p align="center">
-<img height="350" src="https://github.com/dummy4program/QAProject/blob/dev/img/tests-AllCoverage.jpg">
+<img height="350" src="/img/tests-AllCoverage.jpg">
 </p>
 
 ---
@@ -215,21 +215,21 @@ Stretch goals could improve the functionality or confidence in the application b
 <i>Unit tests for Service class - overview</i>
 </p>
 <p align="center">
-<img height="350" src="https://github.com/dummy4program/QAProject/blob/dev/img/tests-UnitServiceOverview.jpg">
+<img height="350" src="/img/tests-UnitServiceOverview.jpg">
 </p>
 
 <p align="center">
 <i>Unit tests for Service class - completed successfully</i>
 </p>
 <p align="center">
-<img height="200" src="https://github.com/dummy4program/QAProject/blob/dev/img/tests-UnitServiceCompleted.jpg">
+<img height="200" src="/img/tests-UnitServiceCompleted.jpg">
 </p>
  
 <p align="center">
 <i>Unit tests for Service class - coverage report</i>
 </p>
 <p align="center">
-<img height="350" src="https://github.com/dummy4program/QAProject/blob/dev/img/tests-UnitServiceCoverage.jpg">
+<img height="350" src="/img/tests-UnitServiceCoverage.jpg">
 </p>
 
 ---
@@ -246,21 +246,21 @@ Stretch goals could improve the functionality or confidence in the application b
 <i>Unit tests for Controller class - overview</i>
 </p>
 <p align="center">
-<img height="350" src="https://github.com/dummy4program/QAProject/blob/dev/img/tests-UnitControllerOverview.jpg">
+<img height="350" src="/img/tests-UnitControllerOverview.jpg">
 </p>
 
 <p align="center">
 <i>Unit tests for Controller class - completed successfully</i>
 </p>
 <p align="center">
-<img height="200" src="https://github.com/dummy4program/QAProject/blob/dev/img/tests-UnitControllerCompleted.jpg">
+<img height="200" src="/img/tests-UnitControllerCompleted.jpg">
 </p>
  
 <p align="center">
 <i>Unit tests for Controller class - coverage report</i>
 </p>
 <p align="center">
-<img height="350" src="https://github.com/dummy4program/QAProject/blob/dev/img/tests-UnitControllerCoverage.jpg">
+<img height="350" src="/img/tests-UnitControllerCoverage.jpg">
 </p>
 
 ---
@@ -277,21 +277,21 @@ Stretch goals could improve the functionality or confidence in the application b
 <i>Integration test - overview</i>
 </p>
 <p align="center">
-<img height="350" src="https://github.com/dummy4program/QAProject/blob/dev/img/tests-IntegrationOverview.jpg">
+<img height="350" src="/img/tests-IntegrationOverview.jpg">
 </p>
 
 <p align="center">
 <i>Integration test - completed successfully</i>
 </p>
 <p align="center">
-<img height="200" src="https://github.com/dummy4program/QAProject/blob/dev/img/tests-IntegrationCompleted.jpg">
+<img height="200" src="/img/tests-IntegrationCompleted.jpg">
 </p>
  
 <p align="center">
 <i>Integration test - coverage report</i>
 </p>
 <p align="center">
-<img height="350" src="https://github.com/dummy4program/QAProject/blob/dev/img/tests-IntegrationCoverage.jpg">
+<img height="350" src="/img/tests-IntegrationCoverage.jpg">
 </p>
 
 ---
@@ -300,4 +300,4 @@ Stretch goals could improve the functionality or confidence in the application b
 
 [Link to Jira project management Scrum board](https://kalford.atlassian.net/jira/software/projects/QP/boards/2/roadmap?shared=&atlOrigin=eyJpIjoiZTk4MDhlMmI1ZGYyNDM1YjhkZDNkOTUxNTUyZTg4NGMiLCJwIjoiaiJ9)
 
-A [documentation](https://github.com/dummy4program/QAProject/tree/dev/documentation) folder has also been added to this repo containing a [risk assessment](https://github.com/dummy4program/QAProject/blob/dev/documentation/RiskAssessment.pdf) carried out for the project, which has also been plotted in a risk matrix.
+A [documentation](/documentation) folder has also been added to this repo containing a [risk assessment](/documentation/RiskAssessment.pdf) carried out for the project, which has also been plotted in a risk matrix.
